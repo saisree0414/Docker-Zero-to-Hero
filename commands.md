@@ -1,3 +1,27 @@
+### 1. Container Management
+### docker run
+Create and start a new container from an image.
+### docker ps / docker container ls
+List running containers (-a for all containers).
+### docker start <container>
+Start one or more stopped containers.
+### docker stop <container>
+Stop one or more running containers.
+### docker restart <container>
+Stop and restart a container.
+### docker exec -it <container> <cmd>
+Execute a command inside a running container.
+### docker logs <container>
+Fetch logs from a container (-f to stream).
+### docker rm <container>
+Remove one or more stopped containers (-f to force).
+### docker inspect <container>
+Return low-level JSON details of a container.
+### docker stats
+Display a live stream of container resource usage.
+### docker cp <container>:<path> <host>
+Copy files between container and local host.
+
 # Docker Commands
 
 Some of the most commonly used docker commands are 
