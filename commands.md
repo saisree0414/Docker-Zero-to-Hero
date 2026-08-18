@@ -19,7 +19,7 @@ Remove one or more stopped containers (-f to force).
 Return low-level JSON details of a container.
 ### docker stats
 Display a live stream of container resource usage.
-### docker cp <container>:<path> <host>
+## docker cp <container>:<path> <host>
 Copy files between container and local host.
 
 # Docker Commands
