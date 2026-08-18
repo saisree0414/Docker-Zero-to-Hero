@@ -362,4 +362,8 @@ c5ff2d88f679: Mounted from library/ubuntu
 latest: digest: sha256:6e49841ad9e720a7baedcd41f9b666fcd7b583151d0763fe78101bb8221b1d88 size: 1157
 ```
 
+### what is dangling image? 
+
+A dangling image in Docker is an image layer that has no repository name and no version tag, appearing as <none>:<none> when you list your images. It occurs most commonly when you build a new version of an image using an existing tag (like my-app:latest), causing Docker to strip the tag from the older build and give it to the new one. The old image remains on your disk but becomes untagged, unreferenced, and completely disconnected from any active containers.
+
 ### You must be feeling like a champ already 
